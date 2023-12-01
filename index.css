@@ -3,3 +3,32 @@
     border: 1px solid #666;
     margin: 0 0 20px;
 }
+#event-form {
+    margin: 0 0 20px;
+    background: bisque;
+    padding: 20px;
+}
+#event-list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.event-card button {
+    padding: 10px;
+    margin: 0 10px 0 0;
+    border-radius: 25px;
+    border: none;
+    background-color: cornflowerblue;
+    margin: 10px 10px 0 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+.event-card button:hover{
+    background-color: antiquewhite;
+    color: #333333;
+}
+form#event-form > label {
+    margin: 0 0 10px;
+    float: left;
+    width: 100%;
+}
